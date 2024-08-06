@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 function Partners() {
   return (
-    <div className="w-[90%] md:w-[80%] justify-center items-center mx-auto">
+    <div id="partners" className="w-[90%] md:w-[80%] justify-center items-center mx-auto">
       {/* <TitleText title={<>Get started with just a few clicks</>} /> */}
 
       <h2 className="font-semibold text-center md:text-[54px] pb-4 text-[40px]">

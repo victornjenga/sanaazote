@@ -26,7 +26,7 @@ import {
 import Link from "next/link";
 const Services = () => {
   return (
-    <div className=" justify-center   items-center  my-4">
+    <div id="feature" className=" justify-center   items-center  my-4">
       <div className="flex flex-col text-center py-5">
         <h2 className="font-bold md:text-[54px] py-4 text-[40px] ">
           Our{" "}
