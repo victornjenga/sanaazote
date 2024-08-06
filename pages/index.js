@@ -14,34 +14,22 @@ export default function Home() {
   // console.log(products);
 
   return (
-    <>
+    <div>
       <SeoHead title="Sanaa Zote TV" />
       <Hero />
       <About />
+      <div className="relative">
+
       <Services />
-      {/* <Feature /> */}
-      {/* <div
-        id="places"
-        className="flex justify-center items-center w-full my-3 md:mt-4"
-      >
-        <h2 className="text-lg  md:text-xl  py-2 pl-3 font-semibold">
-          FEATURED DESTINATIONS
-        </h2>
-      </div>
-      <div className="flex  mb-4 flex-wrap mx-2  w-full">
-        {products.map((product) => (
-          <Places key={product._id} product={product} />
-        ))}
-      </div> */}
       
       <Partners />
 
       <Pricing />
       <div className="gradient-03 z-0" />
-
+      <div/>
 
       {/* <Footer /> */}
-    </>
+    <div/>
   );
 }
 
