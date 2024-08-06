@@ -25,7 +25,7 @@ export default function Home() {
       <Partners />
 
       <Pricing />
-      <div className="gradient-03 z-0" />
+      {/* <div className="gradient-03 z-0" /> */}
       </div>
 
       {/* <Footer /> */}
