@@ -26,10 +26,10 @@ export default function Home() {
 
       <Pricing />
       <div className="gradient-03 z-0" />
-      <div/>
+      </div>
 
       {/* <Footer /> */}
-    <div/>
+      </div>
   );
 }
 
