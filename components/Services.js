@@ -34,6 +34,8 @@ import Link from "next/link";
 const Services = () => {
   return (
     <div id="feature" className=" justify-center   items-center  my-4">
+          <div className="gradient-02 z-0" />
+
       <div className="flex flex-col text-center py-5">
         <h2 className="font-bold md:text-[54px] py-4 text-[40px] ">
           Our{" "}
@@ -213,6 +215,7 @@ const Services = () => {
           </motion.div>
         </div>
       </motion.div>
+      
     </div>
   );
 };

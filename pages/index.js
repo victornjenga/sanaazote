@@ -33,8 +33,12 @@ export default function Home() {
           <Places key={product._id} product={product} />
         ))}
       </div> */}
+      
       <Partners />
+
       <Pricing />
+      <div className="gradient-03 z-0" />
+
 
       {/* <Footer /> */}
     </>
