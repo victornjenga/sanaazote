@@ -9,7 +9,7 @@ import Places from "../components/Places";
 import Footer from "../components/Layout/Footer";
 import Partners from "../components/Partners";
 import About from "../components/About";
-export default function Home({ products }) {
+export default function Home() {
   // console.log(products);
 
   return (
@@ -17,8 +17,8 @@ export default function Home({ products }) {
       <SeoHead title="Safwa Safaris" />
       <Hero />
       <About />
-      {/* <Feature /> */}
-      <div
+      <Feature />
+      {/* <div
         id="places"
         className="flex justify-center items-center w-full my-3 md:mt-4"
       >
@@ -30,21 +30,21 @@ export default function Home({ products }) {
         {products.map((product) => (
           <Places key={product._id} product={product} />
         ))}
-      </div>
-      {/* <Pricing /> */}
-      {/* <Partners /> */}
+      </div> */}
+      <Pricing />
+      <Partners />
       {/* <Footer /> */}
     </>
   );
 }
 
-export const getServerSideProps = async ({ query: { category } }) => {
-  let response = await axios.get(`${BASE_URL}/api/products`);
+// export const getServerSideProps = async ({ query: { category } }) => {
+//   let response = await axios.get(`${BASE_URL}/api/products`);
 
-  if (category) {
-    response = await axios.get(`${BASE_URL}/api/discover/${category}`);
-  }
-  return {
-    props: { products: response.data },
-  };
-};
+//   if (category) {
+//     response = await axios.get(`${BASE_URL}/api/discover/${category}`);
+//   }
+//   return {
+//     props: { products: response.data },
+//   };
+// };
