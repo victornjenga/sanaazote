@@ -9,7 +9,7 @@ const Footer = () => {
           <Link href="/">
             <img className="h-[80px]" src="/logo.png" alt="/" />
           </Link>
-          <p>All in one place for all your travel needs</p>
+          <p>All in one place for all your filming needs</p>
         </div>
         <div className="flex flex-col  my-3">
           <p className="text-xl font-bold">Links</p>

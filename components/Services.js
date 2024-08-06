@@ -16,6 +16,8 @@ import { fadeIn, staggerContainer } from "../utils/motion";
 import { MdMilitaryTech } from "react-icons/md";
 import { GrTechnology, GrShieldSecurity, GrNetwork } from "react-icons/gr";
 import { GiSatelliteCommunication } from "react-icons/gi";
+import { FcFilmReel } from "react-icons/fc";
+import { PiFilmSlateFill } from "react-icons/pi";
 
 import {
   AiOutlineClose,
@@ -23,6 +25,8 @@ import {
   AiOutlineSecurityScan,
   AiOutlineCloudDownload,
 } from "react-icons/ai";
+import { FcAudioFile } from "react-icons/fc";
+
 import Link from "next/link";
 const Services = () => {
   return (
@@ -46,7 +50,7 @@ const Services = () => {
             variants={fadeIn("up", "tween", 0.1, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <TbDatabaseImport className="text-5xl " />
+            <FcFilmReel className="text-5xl " />
             <h2 className="font-semibold text-2xl">TV & FILM PRODUCTION</h2>
             <p className="">
               We are prominently engaged in the dynamic realm of television and
@@ -81,7 +85,7 @@ const Services = () => {
             variants={fadeIn("up", "tween", 0.3, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <TbNetwork className="text-5xl" />
+            <FcAudioFile className="text-5xl" />
             <h2 className="font-semibold text-2xl">AUDIO PRODUCTION</h2>
             <p className="">
               We engage in the production of diverse and high-quality audio
@@ -115,7 +119,7 @@ const Services = () => {
             variants={fadeIn("up", "tween", 0.3, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <FaNetworkWired className="text-5xl " />
+            <PiFilmSlateFill className="text-5xl " />
             <h2 className="font-semibold text-2xl">COOPRRATE VIDOES</h2>
             <p className="">
               We specialize in producing corporate videos for business and
@@ -133,7 +137,7 @@ const Services = () => {
             variants={fadeIn("up", "tween", 0.4, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <AiOutlineCloudDownload className="text-5xl text-red-600" />
+            <GiSatelliteCommunication className="text-5xl text-red-600" />
             <h2 className="font-semibold text-2xl">LIVE TRANSMISSION</h2>
             <p className="">
               We offer live streaming services for real-time, engaging online
