@@ -22,12 +22,14 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center "
       >
-        Welcome to Safwa Safaris, where adventure meets excellence! Established
-        with a passion for exploration and a commitment to exceptional service,
-        Safwa Safaris is a premier travel and tour company specializing in
-        bespoke safari experiences. Our goal is to bring you closer to the
-        stunning landscapes, diverse wildlife, and rich cultures that make our
-        destinations so unique.
+        SanaaZoteTV is an initiative launched by Sanaa Zote Productions, based
+        in Nairobi, Kenya. Established in 2010, Sanaa Zote Productions
+        represents the forefront of African storytelling in the contemporary
+        era. We take pride in being a comprehensive film and television
+        production service provider, boasting over two decades of industry
+        expertise. Our extensive portfolio includes successful projects not only
+        in Kenya but also across the expansive territories of East and Central
+        Africa.
       </motion.p>
       {/* <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}

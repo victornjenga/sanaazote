@@ -33,8 +33,9 @@ export default function Home() {
           <Places key={product._id} product={product} />
         ))}
       </div> */}
-      <Pricing />
       <Partners />
+      <Pricing />
+
       {/* <Footer /> */}
     </>
   );

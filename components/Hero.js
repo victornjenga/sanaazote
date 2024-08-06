@@ -47,7 +47,7 @@ const backgroundImageUrl2 = 'url("/diani.jpg")';
           Story Telling Maestro
         </h1>
         <p className="text-gray-100 text-2xl z-10 text-center ">
-          Experience splendor and sights.
+        Offering diverse expertise and services.
         </p>
         <div className="text-center mt-4">
           <button className="bg-blue-800 rounded-xl px-3 py-2 text-gray-100 text-xl  ">
@@ -70,9 +70,9 @@ const backgroundImageUrl2 = 'url("/diani.jpg")';
         {/* Your content goes here */}
         <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-orange-600  to-orange-700">
           <span className="light:text-black text-gray-100">
-            Find Your Next Destination
+          We are a Comprehensive 
           </span>{" "}
-          With Us
+          Media Partner
         </h1>
         <p className="text-gray-100 text-2xl z-10 text-center ">
           Reliable ,Affordable and Distictive.

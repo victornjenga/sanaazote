@@ -114,12 +114,7 @@ const Navbar = () => {
               About
             </p>
           </Link>
-          <Link href="/about">
-            <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
-              Safari Packages
-            </p>
-          </Link>
-
+          
           <h2 onClick={toggleSubmenu} className="menu-item sub__menus__arrows">
             <Link href="/">
               <div className="flex justify-center items-center">
