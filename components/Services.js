@@ -18,6 +18,9 @@ import { GrTechnology, GrShieldSecurity, GrNetwork } from "react-icons/gr";
 import { GiSatelliteCommunication } from "react-icons/gi";
 import { FcFilmReel } from "react-icons/fc";
 import { PiFilmSlateFill } from "react-icons/pi";
+import { FaSearchLocation } from "react-icons/fa";
+import { GrDocumentSound } from "react-icons/gr";
+import { BiSolidVideos } from "react-icons/bi";
 
 import {
   AiOutlineClose,
@@ -57,27 +60,33 @@ const Services = () => {
               film production
             </p>
             <Link
-              href="/Datacenter"
-              className="text-xl text-purple-600 cursor-pointer"
+              href="/"
+              className="text-xl text-orange-600 cursor-pointer"
             >
-              Read More
+              <p className="text-xl text-blue-700 cursor-pointer">
+                Read More
+              </p>
+              
             </Link>
           </motion.div>
           <motion.div
             variants={fadeIn("up", "tween", 0.2, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <AiOutlineSecurityScan className="text-5xl text-red-600" />
+            <AiOutlineSecurityScan className="text-5xl text-orange-700" />
             <h2 className="font-semibold text-2xl">FILMING FIXERS</h2>
             <p className="">
               We specialize in professional film fixing services for various
               production needs.
             </p>
             <Link
-              href="/Physicalsecurity"
-              className="text-xl text-purple-600 cursor-pointer"
+              href="/"
+              className="text-xl text-orange-600 cursor-pointer"
             >
-              Read More
+              <p className="text-xl text-blue-700 cursor-pointer">
+                Read More
+              </p>
+              
             </Link>
           </motion.div>
 
@@ -92,27 +101,33 @@ const Services = () => {
               content.
             </p>
             <Link
-              href="/Enterprise"
-              className="text-xl text-purple-600 cursor-pointer"
+              href="/"
+              className="text-xl text-orange-600 cursor-pointer"
             >
-              Read More
+              <p className="text-xl text-blue-700 cursor-pointer">
+                Read More
+              </p>
+              
             </Link>
           </motion.div>
           <motion.div
             variants={fadeIn("up", "tween", 0.2, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <GiSatelliteCommunication className="text-5xl text-red-600" />
+            <BiSolidVideos className="text-5xl text-orange-700" />
             <h2 className="font-semibold text-2xl">TESTIMONIALS VIDEOS</h2>
             <p className="">
               We produce content showcasing authentic testimonials and real-life
               experiences.
             </p>
             <Link
-              href="/Unified"
-              className="text-xl text-purple-600 cursor-pointer"
+              href="/"
+              className="text-xl text-orange-600 cursor-pointer"
             >
-              Read More
+              <p className="text-xl text-blue-700 cursor-pointer">
+                Read More
+              </p>
+              
             </Link>
           </motion.div>
           <motion.div
@@ -126,10 +141,13 @@ const Services = () => {
               marketing purposes
             </p>
             <Link
-              href="/Network"
-              className="text-xl text-purple-600 cursor-pointer"
+              href="/"
+              className="text-xl text-orange-600 cursor-pointer"
             >
-              Read More
+              <p className="text-xl text-blue-700 cursor-pointer">
+                Read More
+              </p>
+              
             </Link>
           </motion.div>
 
@@ -137,51 +155,60 @@ const Services = () => {
             variants={fadeIn("up", "tween", 0.4, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <GiSatelliteCommunication className="text-5xl text-red-600" />
+            <GiSatelliteCommunication className="text-5xl text-orange-700" />
             <h2 className="font-semibold text-2xl">LIVE TRANSMISSION</h2>
             <p className="">
               We offer live streaming services for real-time, engaging online
               broadcasts
             </p>
             <Link
-              href="/Cloudsolutions"
-              className="text-xl text-purple-600 cursor-pointer"
+              href="/"
+              className="text-xl text-orange-600 cursor-pointer"
             >
-              Read More
+              <p className="text-xl text-blue-700 cursor-pointer">
+                Read More
+              </p>
+              
             </Link>
           </motion.div>
           <motion.div
             variants={fadeIn("up", "tween", 0.4, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <MdMilitaryTech className="text-5xl" />
+            <GrDocumentSound  className="text-5xl" />
             <h2 className="font-semibold text-2xl">DOCUMENTARIES</h2>
             <p className="">
               We create compelling documentaries exploring various subjects and
               social issues
             </p>
             <Link
-              href="/techsecurity"
-              className="text-xl text-purple-600 cursor-pointer"
+              href="/"
+              className="text-xl text-orange-600 cursor-pointer"
             >
-              Read More
+              <p className="text-xl text-blue-700 cursor-pointer">
+                Read More
+              </p>
+              
             </Link>
           </motion.div>
           <motion.div
             variants={fadeIn("up", "tween", 0.4, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <FaHouseDamage className="text-5xl text-red-600" />
+            <FaSearchLocation className="text-5xl text-orange-700" />
             <h2 className="font-semibold text-2xl">LOCATION SERVICES</h2>
             <p className="">
               We provide top-notch location services for diverse film and
               television productions.
             </p>
             <Link
-              href="/smartbuilding"
-              className="text-xl text-purple-600 cursor-pointer"
+              href="/"
+              className="text-xl text-orange-600 cursor-pointer"
             >
-              Read More
+              <p className="text-xl text-blue-700 cursor-pointer">
+                Read More
+              </p>
+              
             </Link>
           </motion.div>
         </div>
