@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <>
-      <SeoHead title="Safwa Safaris" />
+      <SeoHead title="Sanaa Zote TV" />
       <Hero />
       <About />
       <Services />

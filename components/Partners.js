@@ -13,22 +13,22 @@ function Partners() {
       <div>
         <Marquee gradientColor="null" direction="right" speed={70} delay={5}>
           <div className="mx-3 w-[80px] md:w-[140px] ">
-            <img src="/tripadvisor.jpg" alt="" />
+            <img src="/gov.png" alt="" />
           </div>
           <div className="mx-3 w-[80px] md:w-[140px]">
             <img src="/kenya-wildlife-service.jpg" alt="" />
           </div>
           <div className="mx-3 w-[80px] md:w-[140px]">
-            <img src="/viator-logo.jpg" alt="" />
+            <img src="/equity.png" alt="" />
           </div>
           <div className="mx-3 w-[80px] md:w-[140px]">
             <img src="/expedia-logo.jpg" alt="" />
           </div>
           <div className="mx-3 w-[80px] md:w-[140px]">
-            <img src="/safari-bookings.jpg" alt="" />
+            <img src="/youtube.png" alt="" />
           </div>
           <div className="mx-3 w-[80px] md:w-[140px]">
-            <img src="/Get-your-guide.jpg" alt="" />
+            <img src="/safaricom.png" alt="" />
           </div>
         </Marquee>
       </div>
