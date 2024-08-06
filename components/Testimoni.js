@@ -6,6 +6,8 @@ import Image from "next/image";
 import Stars from "../public/assets/Icon/stars.svg";
 import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
+import { FaLongArrowAltLeft } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Testimoni = ({
   listTestimoni = [
@@ -123,21 +125,19 @@ const Testimoni = ({
       <div className="flex w-full items-center justify-end">
         <div className="flex flex-none justify-between w-auto mt-14">
           <div
-            className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-500 border hover:bg-blue-500 hover:text-white-500 transition-all text-blue-500 cursor-pointer"
+            className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-500 border hover:bg-blue-500 hover:text-white-500 text-black dark:text-white-500 transition-all  cursor-pointer"
             onClick={sliderRef?.slickPrev}
           >
-            <img
-              src="/assets/Icon/eva_arrow-back-fill.svg"
-              className="h-6 w-6 "
+            <FaLongArrowAltLeft
+              className="text-2xl "
             />
           </div>
           <div
-            className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-500 border hover:bg-blue-500 hover:text-white-500 transition-all text-blue-500 cursor-pointer"
+            className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-500 border hover:bg-blue-500 hover:text-white-500 text-black dark:text-white-500 transition-all  cursor-pointer"
             onClick={sliderRef?.slickNext}
           >
-            <img
-              src="/assets/Icon/eva_arrow-next-fill.svg"
-              className="h-6 w-6"
+            <FaLongArrowAltRight  
+              className="text-2xl"
             />
           </div>
         </div>

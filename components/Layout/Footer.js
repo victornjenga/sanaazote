@@ -12,39 +12,41 @@ const Footer = () => {
           <p>All in one place for all your travel needs</p>
         </div>
         <div className="flex flex-col  my-3">
-          <p className="text-xl font-bold">Customer Services</p>
-          <p className="">Privacy Policy</p>
+          <p className="text-xl font-bold">Links</p>
+          <p className="">Home</p>
           <p>
             {" "}
-            <Link href="/terms-conditions">Terms and Condtions</Link>{" "}
+            <Link href="/terms-conditions">Projects</Link>{" "}
           </p>
           <p>About Us</p>
-          <p>Customer Services</p>
+          <p>Services</p>
+          <p>Contact</p>
         </div>
         <div className="flex flex-col  my-3">
           <p className="text-xl font-bold">Top Destinations</p>
-          <p className="">Diani</p>
-          <p>Mombasa</p>
-          <p>Masai Mara</p>
-          <p>Kisumu</p>
+          <p>Tv & Film production</p>
+          <p className="">Audio Production</p>
+          <p>Co-oporete Videos</p>
+          <p>Live Transmission</p>
+          <p>Documentaries</p>
         </div>
         <div className="flex flex-col  my-3">
           <p className="text-xl font-bold">Call Us Here</p>
           <p className="">
-            <span className="text-lg font-bold">Sales:</span> 0747100101
+            <span className="text-lg font-bold">Sales:</span> 0721600430
           </p>
           <p className="">
-            <span className="text-lg font-bold">Email:</span> info@safwasafaris.com
+            <span className="text-lg font-bold">Email:</span> sanaazotetv@gmail.com
           </p>
           <p className="">
-            <span className="text-lg font-bold">Shop Location: </span>Nairobi,
+            <span className="text-lg font-bold">Shop Location: </span>Ngong Hills, Nairobi,
             Kenya
           </p>
         </div>
       </div>
 
       <p className="py-4 px-3 text-center mx-10  flex justify-center">
-        Copyright © {new Date().getFullYear()} Safwa Safaris, All rights reserved.
+        Copyright © {new Date().getFullYear()} Sanaa Zote, All rights reserved.
       </p>
     </div>
   );

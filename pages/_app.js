@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
             <Footer />
             <div className="bottom-10 fixed z-10 cursor-pointer right-4 ">
                   <a
-                    href="https://wa.me/+254747100101?text=Hello,+There"
+                    href="https://wa.me/+2547600430?text=Hello,+There"
                     target="_blank"
                     rel="noreferrer"
                   >
