@@ -33,19 +33,19 @@ const backgroundImageUrl2 = 'url("/diani.jpg")';
   >
         <SwiperSlide >
         <div
-      className="bg-cover bg-center h-[400px] md:h-[530px] flex flex-col w-full items-center justify-center"
+      className="bg-cover bg-center h-[400px] md:h-[420px] flex flex-col w-full items-center justify-center"
       style={{ backgroundImage: backgroundImageUrl }}
     >
       {" "}
-      <div className="absolute inset-0 h-[400px] md:h-[530px]  bg-black opacity-50"></div>
+      <div className="absolute inset-0 h-[400px] md:h-[420px]  bg-black opacity-50"></div>
       <section
         className={`${styles.paddings}   mx-auto z-10 w-[95%] items-center justify-center `}
       >
         {/* Your content goes here */}
-        <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-green-600  to-green-700">
+        <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-orange-600  to-orange-700">
           <span className="light:text-black text-gray-100">
            Explore the World With
-          </span>{" "}
+          </span>
           Safwa Safaris
         </h1>
         <p className="text-gray-100 text-2xl z-10 text-center ">
@@ -61,16 +61,16 @@ const backgroundImageUrl2 = 'url("/diani.jpg")';
         </SwiperSlide>
         <SwiperSlide >
         <div
-      className="bg-cover bg-center h-[400px] md:h-[530px] flex flex-col w-full items-center justify-center"
+      className="bg-cover bg-center h-[400px] md:h-[420px] flex flex-col w-full items-center justify-center"
       style={{ backgroundImage: backgroundImageUrl2 }}
     >
       {" "}
-      <div className="absolute inset-0 h-[400px] md:h-[530px]  bg-black opacity-50"></div>
+      <div className="absolute inset-0 h-[400px] md:h-[420px]  bg-black opacity-50"></div>
       <section
         className={`${styles.paddings}   mx-auto z-10 w-[95%] items-center justify-center `}
       >
         {/* Your content goes here */}
-        <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-green-600  to-green-700">
+        <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-orange-600  to-orange-700">
           <span className="light:text-black text-gray-100">
             Find Your Next Destination
           </span>{" "}

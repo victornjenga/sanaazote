@@ -96,153 +96,64 @@ const Navbar = () => {
     }
   };
   return (
-    <div className="fixed w-full z-10 text-white-300 bg-gray-950 ">
-      {isVisible && (
-        <div className="hidden md:flex justify-around flex-row   items-center gap-4   bg-gray-950 ">
-          <div className="flex justify-center items-center gap-3">
-            <div className=" ">
-              <p>Kenya's Leading Tour and Tavel Company</p>
-            </div>
-
-            <div className=" flex justify-center px-3 border-x border-gray-600 items-center space-x-2">
-              <div>
-                <p>Phone: </p>
-              </div>
-              <div>
-                <p className="text-xl"> +254706030066</p>
-                {/* <p>Email : Info@winniefashion.com</p> */}
-              </div>
-            </div>
-            <div className="flex flex-row">
-              <ul className="flex gap-2 flex-wrap">
-                <a
-                  href="https://facebook.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="cursor-pointer w-10 h-10 justify-center items-center flex  r ">
-                    <FaFacebookF className="" />
-                  </div>
-                </a>{" "}
-                <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                  <div className="cursor-pointer w-10 h-10 justify-center items-center flex  r ">
-                    <FaTwitter lassName="text-2xl" />
-                  </div>
-                </a>{" "}
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="cursor-pointer w-10 h-10 justify-center items-center flex  r ">
-                    <FaInstagram lassName="text-2xl" />
-                  </div>
-                </a>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <button
-              onClick={() => router.push("/contact")}
-              className="px-6 py-1 text-black  bg-gray-100 "
-            >
-              Contact
-            </button>
-          </div>
-        </div>
-      )}
-      {isVisible && (
-        <div className="hidden md:flex  justify-between items-center px-8  bg-gray-900 ">
-          <div>
-            <Link href="/">
-              <img className="w-[100px]" src="/logo.png" alt="/" />
-            </Link>
-          </div>
-          <div className="hidden space-x-10  md:flex ">
-            <Link href="/">
-              <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
-                Home
-              </p>
-            </Link>
-            <Link href="/about">
-              <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
-                About
-              </p>
-            </Link>
-            <Link href="/about">
-              <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
-                Safari Packages
-              </p>
-            </Link>
-
-            <h2
-              onClick={toggleSubmenu}
-              className="menu-item sub__menus__arrows"
-            >
-              <Link href="/">
-                <div className="flex justify-center items-center">
-                  <p className="text-xl cursor-pointer font-medium pr-2">
-                    Destinations
-                  </p>
-                  <FiChevronDown className="text-2xl hover:rotate-180" />
-                </div>
-              </Link>
-
-              <ul className={boxClassSubMenu.join(" ")}>
-                <div className="space-y-2 text-left flex flex-col pb-4  justify-center pl-4 my-2 bg-black/60 text-white ">
-                  <li>
-                    <Link href="/">Mombasa</Link>
-                  </li>
-                  <li>
-                    <Link href="/">Diani</Link>
-                  </li>
-                  <li>
-                    <Link href="/">Lamu</Link>
-                  </li>
-                  <li>
-                    <Link href="/">Masai Mara</Link>
-                  </li>
-                </div>
-              </ul>
-            </h2>
-            <Link href="/about">
-              <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
-                Corporates
-              </p>
-            </Link>
-
-            <ThemeSwitch  />
-          </div>
-        </div>
-      )}
-      <div className="hidden md:flex  justify-around items-center py-2 bg-gray-950">
-        {/* <div>
+    <div className="fixed w-full z-10 -300 bg-gray-100 dark:bg-gray-950 ">
+      <div className="hidden md:flex  justify-between items-center px-8  bg-gray-100 dark:bg-gray-900 ">
+        <div>
           <Link href="/">
             <img className="w-[80px]" src="/logo.png" alt="/" />
           </Link>
-        </div> */}
-        <div className="flex w-full justify-center items-center space-x-2  ">
-          <form
-            onSubmit={handleSearch}
-            className="flex space-x-3 w-[50%]  py-2 rounded-sm  items-center border  border-gray-400  px-4  "
-          >
-            <BsSearch
-              // onClick={handleSearch}
-              className="text-customBlue text-2xl"
-            />
-            <input
-              placeholder="Travels,sight seeings"
-              type="text"
-              onChange={(e) => setSearchValue(e.target.value)}
-              className="outline-none bg-gray-950"
-            />
-          </form>
-          <button
-            onClick={handleSearch}
-            className="px-6 py-2  text-gray-50  bg-blue-600 hover:bg-green-600"
-          >
-            Search
-          </button>
+        </div>
+        <div className="hidden space-x-10  md:flex ">
+          <Link href="/">
+            <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
+              Home
+            </p>
+          </Link>
+          <Link href="/about">
+            <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
+              About
+            </p>
+          </Link>
+          <Link href="/about">
+            <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
+              Safari Packages
+            </p>
+          </Link>
+
+          <h2 onClick={toggleSubmenu} className="menu-item sub__menus__arrows">
+            <Link href="/">
+              <div className="flex justify-center items-center">
+                <p className="text-xl cursor-pointer font-medium pr-2">
+                  Destinations
+                </p>
+                <FiChevronDown className="text-2xl hover:rotate-180" />
+              </div>
+            </Link>
+
+            <ul className={boxClassSubMenu.join(" ")}>
+              <div className="space-y-2 text-left flex flex-col pb-4  justify-center pl-4 my-2 bg-black/60  ">
+                <li>
+                  <Link href="/">Mombasa</Link>
+                </li>
+                <li>
+                  <Link href="/">Diani</Link>
+                </li>
+                <li>
+                  <Link href="/">Lamu</Link>
+                </li>
+                <li>
+                  <Link href="/">Masai Mara</Link>
+                </li>
+              </div>
+            </ul>
+          </h2>
+          <Link href="/about">
+            <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
+              Corporates
+            </p>
+          </Link>
+
+          <ThemeSwitch />
         </div>
       </div>
 
@@ -316,7 +227,7 @@ const Navbar = () => {
                   )}
                 </li>
                 {openMenu && (
-                  <div className=" space-y-2 text-left flex flex-col pb-4  justify-center pl-4 my-2  dark:text-white ">
+                  <div className=" space-y-2 text-left flex flex-col pb-4  justify-center pl-4 my-2  dark: ">
                     <li
                       className="hover:text-purple-600 flex items-center space-x-2"
                       onClick={() => setOpen(false)}

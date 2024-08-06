@@ -55,7 +55,7 @@ const Testimoni = ({
         </a>
       );
     },
-    dotsClass: "slick-dots w-max absolute mt-20  ",
+    dotsClass: "slick-dots w-max absolute ",
     infinite: true,
     speed: 500,
     slidesToShow: 3,

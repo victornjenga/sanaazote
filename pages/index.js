@@ -9,6 +9,7 @@ import Places from "../components/Places";
 import Footer from "../components/Layout/Footer";
 import Partners from "../components/Partners";
 import About from "../components/About";
+import Services from "../components/Services";
 export default function Home() {
   // console.log(products);
 
@@ -17,7 +18,8 @@ export default function Home() {
       <SeoHead title="Safwa Safaris" />
       <Hero />
       <About />
-      <Feature />
+      <Services />
+      {/* <Feature /> */}
       {/* <div
         id="places"
         className="flex justify-center items-center w-full my-3 md:mt-4"
