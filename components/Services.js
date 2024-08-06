@@ -59,7 +59,7 @@ const Services = () => {
               We are prominently engaged in the dynamic realm of television and
               film production
             </p>
-            <Link
+            {/* <Link
               href="/"
               className="text-xl text-orange-600 cursor-pointer"
             >
@@ -67,7 +67,7 @@ const Services = () => {
                 Read More
               </p>
               
-            </Link>
+            </Link> */}
           </motion.div>
           <motion.div
             variants={fadeIn("up", "tween", 0.2, 1)}
@@ -79,7 +79,7 @@ const Services = () => {
               We specialize in professional film fixing services for various
               production needs.
             </p>
-            <Link
+            {/* <Link
               href="/"
               className="text-xl text-orange-600 cursor-pointer"
             >
@@ -87,7 +87,7 @@ const Services = () => {
                 Read More
               </p>
               
-            </Link>
+            </Link> */}
           </motion.div>
 
           <motion.div
@@ -100,7 +100,7 @@ const Services = () => {
               We engage in the production of diverse and high-quality audio
               content.
             </p>
-            <Link
+            {/* <Link
               href="/"
               className="text-xl text-orange-600 cursor-pointer"
             >
@@ -108,7 +108,7 @@ const Services = () => {
                 Read More
               </p>
               
-            </Link>
+            </Link> */}
           </motion.div>
           <motion.div
             variants={fadeIn("up", "tween", 0.2, 1)}
@@ -120,7 +120,7 @@ const Services = () => {
               We produce content showcasing authentic testimonials and real-life
               experiences.
             </p>
-            <Link
+            {/* <Link
               href="/"
               className="text-xl text-orange-600 cursor-pointer"
             >
@@ -128,7 +128,7 @@ const Services = () => {
                 Read More
               </p>
               
-            </Link>
+            </Link> */}
           </motion.div>
           <motion.div
             variants={fadeIn("up", "tween", 0.3, 1)}
@@ -140,7 +140,7 @@ const Services = () => {
               We specialize in producing corporate videos for business and
               marketing purposes
             </p>
-            <Link
+            {/* <Link
               href="/"
               className="text-xl text-orange-600 cursor-pointer"
             >
@@ -148,7 +148,7 @@ const Services = () => {
                 Read More
               </p>
               
-            </Link>
+            </Link> */}
           </motion.div>
 
           <motion.div
@@ -161,7 +161,7 @@ const Services = () => {
               We offer live streaming services for real-time, engaging online
               broadcasts
             </p>
-            <Link
+            {/* <Link
               href="/"
               className="text-xl text-orange-600 cursor-pointer"
             >
@@ -169,7 +169,7 @@ const Services = () => {
                 Read More
               </p>
               
-            </Link>
+            </Link> */}
           </motion.div>
           <motion.div
             variants={fadeIn("up", "tween", 0.4, 1)}
@@ -181,7 +181,7 @@ const Services = () => {
               We create compelling documentaries exploring various subjects and
               social issues
             </p>
-            <Link
+            {/* <Link
               href="/"
               className="text-xl text-orange-600 cursor-pointer"
             >
@@ -189,7 +189,7 @@ const Services = () => {
                 Read More
               </p>
               
-            </Link>
+            </Link> */}
           </motion.div>
           <motion.div
             variants={fadeIn("up", "tween", 0.4, 1)}
@@ -201,7 +201,7 @@ const Services = () => {
               We provide top-notch location services for diverse film and
               television productions.
             </p>
-            <Link
+            {/* <Link
               href="/"
               className="text-xl text-orange-600 cursor-pointer"
             >
@@ -209,7 +209,7 @@ const Services = () => {
                 Read More
               </p>
               
-            </Link>
+            </Link> */}
           </motion.div>
         </div>
       </motion.div>
