@@ -97,10 +97,10 @@ const Navbar = () => {
   };
   return (
     <div className="fixed w-full z-10 -300 bg-gray-100 dark:bg-gray-950 ">
-      <div className="hidden md:flex  justify-between items-center px-8  bg-gray-100 dark:bg-gray-900 ">
+      <div className="hidden md:flex h-[80px] justify-between items-center px-8  bg-gray-100 dark:bg-gray-900 ">
         <div>
           <Link href="/">
-            <img className="w-[80px]" src="/logo.png" alt="/" />
+            <img className="h-[50px]" src="/logo.png" alt="/" />
           </Link>
         </div>
         <div className="hidden space-x-10  md:flex ">

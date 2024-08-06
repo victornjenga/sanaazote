@@ -7,7 +7,7 @@ const Footer = () => {
       <div className=" flex flex-col w-[80%] justify-center md:grid grid-cols-4">
         <div className=" px-3 my-3">
           <Link href="/">
-            <img className="h-[80px]" src="/assets/logo.png" alt="/" />
+            <img className="h-[80px]" src="/logo.png" alt="/" />
           </Link>
           <p>All in one place for all your travel needs</p>
         </div>

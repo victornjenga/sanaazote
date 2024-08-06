@@ -17,8 +17,6 @@ const About = () => {
 const backgroundImageUrl2 = 'url("/diani.jpg")';
   return (
     <div id='about' className="w-full  flex pt-20 md:pt-20 ">
-    
-
       <div className="w-[100%] ">
     <Swiper
     // install Swiper modules
@@ -44,9 +42,9 @@ const backgroundImageUrl2 = 'url("/diani.jpg")';
         {/* Your content goes here */}
         <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-orange-600  to-orange-700">
           <span className="light:text-black text-gray-100">
-           Explore the World With
+           We are the African {""}
           </span>
-          Safwa Safaris
+          Story Telling Maestro
         </h1>
         <p className="text-gray-100 text-2xl z-10 text-center ">
           Experience splendor and sights.
