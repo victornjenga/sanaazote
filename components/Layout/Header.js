@@ -179,7 +179,7 @@ const Navbar = () => {
           <div className="flex py-5 items-center justify-between">
             <div onClick={() => setOpen(false)} className="">
               <a href="/">
-                <Image width={80} height={80} src="/logo.png" alt="/" />
+                <img className="w-[100px] " src="/logo.png" alt="/" />
               </a>
             </div>
             <AiOutlineClose

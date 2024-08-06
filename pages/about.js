@@ -8,7 +8,7 @@ import { planetVariants, staggerContainer, fadeIn } from "../utils/motion";
 
 const About = () => (
   <section
-    className={`${styles.paddings} px-4 relative pt-16 md:pt-10 z-1 mx-auto w-[100%] md:w-[90%]`}
+    className={`${styles.paddings} px-4 relative pt-16 md:pt-40 z-1 mx-auto w-[100%] md:w-[90%]`}
   >
     <motion.div
       variants={staggerContainer}
