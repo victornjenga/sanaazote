@@ -2,10 +2,21 @@
 
 import React from 'react';
 
+const getYouTubeVideoId = (url) => {
+    const regex = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/;
+    const matches = url.match(regex);
+    return matches ? matches[1] : null;
+  };
+  
 const YouTubeEmbed = ({ url, title }) => {
-  const videoId = url.split('v=')[1];
-  const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+    const videoId = getYouTubeVideoId(url);
 
+    if (!videoId) {
+      return <div>Error: Invalid YouTube URL</div>;
+    }
+  
+    const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+    
   return (
     <div className=" shadow-md px-2 rounded-sm shadow-gray-200 pb-6">
 

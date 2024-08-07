@@ -9,7 +9,7 @@ const Projects = () => {
   // Define the JSON data within the component
   const videos = [
     { url: "https://youtu.be/90pYaWVhpXw?si=hYVr9ByKTMm0simS", title: "Netflix and Chill" },
-    { url: "https://youtu.be/zUTUA0TKvfQ?si=OHKSk4iNAix1iM2Z", title: "Man U FA Cup Finals" },
+    { url: "https://youtu.be/zUTUA0TKvfQ?si=XTgnZZU7fzqnyfmM", title: "Man U FA Cup Finals" },
     { url: "https://youtu.be/WW9SoVpVZSI?si=9whf8llGl6gdXSbV", title: "Billionare" }
   ];
 
