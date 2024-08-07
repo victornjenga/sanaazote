@@ -130,7 +130,7 @@ const Testimoni = ({
             onClick={sliderRef?.slickPrev}
           >
             <FaLongArrowAltLeft
-              className="text-2xl "
+              className="text-2xl text-gray-100 "
             />
           </div>
           <div
@@ -138,7 +138,7 @@ const Testimoni = ({
             onClick={sliderRef?.slickNext}
           >
             <FaLongArrowAltRight  
-              className="text-2xl"
+              className="text-2xl text-gray-100"
             />
           </div>
         </div>

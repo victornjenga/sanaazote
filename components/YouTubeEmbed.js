@@ -18,12 +18,12 @@ const YouTubeEmbed = ({ link, name }) => {
     const embedUrl = `https://www.youtube.com/embed/${videoId}`;
     
   return (
-    <div className=" shadow-md px-2 rounded-sm shadow-gray-200 pb-6">
+    <div className=" shadow-md px-2 rounded-sm shadow-gray-500 pb-6">
 
     <div className="rounded-xl block w-full  space-x-10 ">
      
       <iframe
-        className='px-2 w-full'
+        className='px-2 w-full h-[250px] '
         src={embedUrl}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -29,7 +29,7 @@ const Projects = ({products}) => {
           Take a look at some of our more recent client projects.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-2 md:mt-8 w-full  items-center gap-10  h-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-2 md:mt-8 w-full items-center gap-10  h-full">
       {products.map((video, index) => (
         <YouTubeEmbed key={index} link={video.link} name={video.name} />
       ))}

@@ -190,7 +190,7 @@ const Navbar = () => {
           </div>
           <div className="overflow-auto sites h-[90vh]">
             <div className="mx-1 text-lg border-b border-gray-600 border-solid ">
-              <p className="py-5">Get to your dream destination with us</p>
+              <p className="py-5">Creating visually stunning and emotionally resonant films that leave a lasting impact</p>
             </div>
             <div className="justify-center items-center block">
               <ul className="block space-y-4 pt-5">
