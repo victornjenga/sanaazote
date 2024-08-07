@@ -15,15 +15,14 @@ const Footer = () => {
           <p className="text-xl font-bold">Links</p>
           <p className="">Home</p>
           <p>
-            {" "}
-            <Link href="/terms-conditions">Projects</Link>{" "}
+            <Link href="/projects">Projects</Link>{" "}
           </p>
-          <p>About Us</p>
-          <p>Services</p>
-          <p>Contact</p>
+          <p> <Link href="/about">About Us</Link></p>
+          <p><Link href="/">Services</Link></p>
+          <p><Link href="/contact">Contact</Link></p>
         </div>
         <div className="flex flex-col  my-3">
-          <p className="text-xl font-bold">Top Destinations</p>
+          <p className="text-xl font-bold">Top Services</p>
           <p>Tv & Film production</p>
           <p className="">Audio Production</p>
           <p>Co-oporete Videos</p>
