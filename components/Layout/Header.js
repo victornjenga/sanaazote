@@ -107,17 +107,17 @@ const Navbar = () => {
         </div>
         <div className="hidden space-x-10  md:flex ">
           <Link href="/">
-            <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
+            <p className="text-xl cursor-pointer font-medium hover:text-orange-600">
               Home
             </p>
           </Link>
           <Link href="/about">
-            <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
+            <p className="text-xl cursor-pointer font-medium hover:text-orange-600">
               About
             </p>
           </Link>
           <Link href="/projects">
-            <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
+            <p className="text-xl cursor-pointer font-medium hover:text-orange-600">
               Projects
             </p>
           </Link>
@@ -149,7 +149,7 @@ const Navbar = () => {
             </ul>
           </h2> */}
           <Link href="/contact">
-            <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
+            <p className="text-xl cursor-pointer font-medium hover:text-orange-600">
               Contact
             </p>
           </Link>
@@ -196,35 +196,35 @@ const Navbar = () => {
               <ul className="block space-y-4 pt-5">
                 <li
                   onClick={() => setOpen(false)}
-                  className="font-sm hover:text-purple-600 flex space-x-2 items-center "
+                  className="font-sm hover:text-orange-600 flex space-x-2 items-center "
                 >
                   <FcHome />
                   <Link href="/">Home</Link>
                 </li>
                 <li
                   onClick={() => setOpen(false)}
-                  className="font-sm hover:text-purple-600 flex space-x-2 items-center "
+                  className="font-sm hover:text-orange-600 flex space-x-2 items-center "
                 >
                   <FcAbout />
                   <Link href="/about">About</Link>
                 </li>
                 <li
                   onClick={() => setOpen(false)}
-                  className="font-sm  hover:text-purple-600 flex space-x-2 items-center"
+                  className="font-sm  hover:text-orange-600 flex space-x-2 items-center"
                 >
                   <FcBusinessContact />
                   <Link href="/contact">Contact Us</Link>
                 </li>
                 <li
                   onClick={() => setOpen(false)}
-                  className="font-sm  hover:text-purple-600 flex space-x-2 items-center"
+                  className="font-sm  hover:text-orange-600 flex space-x-2 items-center"
                 >
                    <FcWorkflow />
                   <Link href="/projects">Projects</Link>
                 </li>
               </ul>
             </div>
-            <h2 className="pt-5 text-xl   text-purple-600">Lets Connect</h2>
+            <h2 className="pt-5 text-xl   text-orange-600">Lets Connect</h2>
             <div className="flex space-x-2 py-2">
               <a href="https://facebook.com/" target="_blank" rel="noreferrer">
                 <div className="shadow-lg w-10 h-10 justify-center items-center flex shadow-gray-400 rounded-full ">

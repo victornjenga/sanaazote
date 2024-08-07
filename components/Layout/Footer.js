@@ -13,13 +13,13 @@ const Footer = () => {
         </div>
         <div className="flex flex-col  my-3">
           <p className="text-xl font-bold">Links</p>
-          <p className="">Home</p>
-          <p>
-            <Link href="/projects">Projects</Link>{" "}
+          <p className="hover:text-orange-600"><Link href="/">Home</Link></p>
+          <p className="hover:text-orange-600">
+            <Link href="/projects">Projects</Link>
           </p>
-          <p> <Link href="/about">About Us</Link></p>
-          <p><Link href="/">Services</Link></p>
-          <p><Link href="/contact">Contact</Link></p>
+          <p className="hover:text-orange-600"> <Link href="/about">About Us</Link></p>
+          <p className="hover:text-orange-600"><Link href="/">Services</Link></p>
+          <p className="hover:text-orange-600"><Link href="/contact">Contact</Link></p>
         </div>
         <div className="flex flex-col  my-3">
           <p className="text-xl font-bold">Top Services</p>
@@ -30,7 +30,7 @@ const Footer = () => {
           <p>Documentaries</p>
         </div>
         <div className="flex flex-col  my-3">
-          <p className="text-xl font-bold">Call Us Here</p>
+          <p className="text-xl font-bold">Contact Us Here</p>
           <p className="">
             <span className="text-lg font-bold">Sales:</span> 0721600430
           </p>
