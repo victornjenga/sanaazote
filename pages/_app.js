@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" enableSystem={true}>
       <CurrencyProvider>
-        <div className="w-full overflow-hidden bg-gray-950 text-white ">
+        <div className="w-full overflow-hidden bg-gray-950 text-gray-100 ">
           <StateContext>
             <Header />
             <Component {...pageProps} />

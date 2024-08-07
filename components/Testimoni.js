@@ -26,7 +26,7 @@ const Testimoni = ({
       city: "Kisumu",
       country: "Kenya",
       rating: "4.5",
-      testimoni: "The crew was easy to work with and very accommodating to our needs. Highly recommend their services for any event!",
+      testimoni: "The crew was easy to work with and very accommodating to our needs. Highly recommend their services",
     },
     {
       name: "Veronica Njeri",
