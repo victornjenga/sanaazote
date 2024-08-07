@@ -19,7 +19,7 @@ function contact() {
               variants={fadeIn("up", "tween", 0.2, 1)}
               class="grow-0 shrink-0 text-left  mb-6 md:mb-0 w-full md:w-[50%] "
             >
-              <h1 className="text-5xl md:text-6xl py-5 text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-blue-600  to-blue-800">
+              <h1 className="text-5xl md:text-6xl py-5 text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-orange-600  to-orange-900">
                 <span className=" text-transparent  bg-clip-text bg-gradient-to-r from-blue-600  to-blue-800">
                   Contact
                 </span>{" "}
