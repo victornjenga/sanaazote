@@ -21,20 +21,18 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <h1 className="text-5xl md:text-6xl py-5 text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-blue-600  to-blue-800">
+        <h1 className="text-5xl md:text-6xl py-5 text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-orange-600 to-orange-900">
           Who We Are?
         </h1>
         <p className="justify-center">
         Sanaa Zote is a premier filming company dedicated to bringing stories to life through the art of visual storytelling. With a team of passionate and creative professionals, we specialize in a wide range of filming services including weddings, corporate events, documentaries, promotional videos, music videos, and more. Our commitment to excellence and innovation ensures that every project we undertake is crafted with precision and heart, delivering exceptional results that exceed our clients' expectations.
-
-
         </p>
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
             <div
               className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] shadow-lg dark:bg-[#323F5D]`}
             >
-              <RiFocus2Fill className="text-4xl text-orange-600" />
+              <RiFocus2Fill className="text-4xl text-blue-600" />
             </div>
             <h1 className="mt-[26px] font-bold text-[24px] leading-[30.24px] dark:text-gray-100">
               OUR MISSION AND OBJECTIVES
@@ -47,7 +45,7 @@ const About = () => (
             <div
               className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] shadow-lg dark:bg-[#323F5D]`}
             >
-              <GrMicrofocus className="text-orange-600 text-4xl" />
+              <GrMicrofocus className="text-blue-600 text-4xl" />
             </div>
             <h1 className="mt-[26px] font-bold text-[24px] leading-[30.24px] dark:text-gray-100">
               Customer Satisfaction
