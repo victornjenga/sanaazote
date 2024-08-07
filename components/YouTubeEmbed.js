@@ -19,7 +19,7 @@ const YouTubeEmbed = ({ url, title }) => {
         allowFullScreen
         title={title}
       ></iframe>
-       <h2 className='text-center'>{title}</h2>
+       <h2 className='text-center py-1 text-xl'>{title}</h2>
     </div>
     </div>
   );
