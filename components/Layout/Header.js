@@ -166,7 +166,7 @@ const Navbar = () => {
         </div>
 
         <div className="md:hidden flex items-center justify-center space-x-10">
-          <ThemeSwitch />
+          {/* <ThemeSwitch /> */}
 
           <AiOutlineMenu
             className="cursor-pointer text-2xl md:hidden"
@@ -247,7 +247,7 @@ const Navbar = () => {
               </a>
             </div>
             <div className="mt-5 mb-10">
-              <ThemeSwitch />
+              {/* <ThemeSwitch /> */}
             </div>
           </div>
         </div>

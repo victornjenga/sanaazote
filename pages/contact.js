@@ -20,7 +20,7 @@ function contact() {
               class="grow-0 shrink-0 text-left  mb-6 md:mb-0 w-full md:w-[50%] "
             >
               <h1 className="text-5xl md:text-6xl py-5 text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-orange-600  to-orange-900">
-                <span className=" text-transparent  bg-clip-text bg-gradient-to-r from-blue-600  to-blue-800">
+                <span className=" text-transparent  bg-clip-text bg-gradient-to-r from-orange-600  to-orange-900">
                   Contact
                 </span>{" "}
                 Us
@@ -29,11 +29,11 @@ function contact() {
               <p>Any Question? Write Down And Send Us</p>
               <div class=" mt-4 flex ">
                 <MdLocationOn className="mr-2 text-2xl dark:text-white" />
-                <p>Nairobi,Kenya</p>
+                <p>Ngong Hills, Nairobi, Kenya</p>
               </div>
               <div class=" my-3 flex item-center ">
                 <BsFillTelephoneFill className="mr-2 text-2xl dark:text-white" />
-                <p>+2547100101</p>
+                <p>+254721600430</p>
               </div>
               <div class=" my-3 flex item-center">
                 <MdMarkEmailRead className="mr-2 text-2xl dark:text-white" />
