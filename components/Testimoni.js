@@ -114,7 +114,7 @@ const Testimoni = ({
                 <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
                   <p className="text-sm">{listTestimonis.rating}</p>
                   <span className="flex ml-4">
-                    <img src="/assets/Icon/star.svg" className="h-4 w-4" />
+                    <img src="/assets/Icon/stars.svg" className="h-4 w-4" />
                   </span>
                 </div>
               </div>
