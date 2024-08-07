@@ -13,12 +13,12 @@ const Testimoni = ({
   listTestimoni = [
     {
       name: "Robert",
-      image: "/assets/people-3.png",
+      image: "/victor.jpeg",
       city: "Eldoret",
       country: "Kenya",
       rating: "4.5",
       testimoni:
-        "I had a really great time on this trip, and would highly recommend.",
+        "Sanaa Zote is exceptional! We hired them to film our corporate event, and they exceeded our expectations.",
     },
     {
       name: "iezh Ian",
@@ -26,25 +26,25 @@ const Testimoni = ({
       city: "Kisumu",
       country: "Kenya",
       rating: "4.5",
-      testimoni: "Our guide, Hadale, was terrific! We had a great time.",
+      testimoni: "The crew was easy to work with and very accommodating to our needs. Highly recommend their services for any event!",
     },
     {
       name: "Veronica Njeri",
-      image: "/assets/people-3.png",
+      image: "/njeri.jpeg",
       city: "Nakuru",
       country: "Kenya",
       rating: "4.5",
       testimoni:
-        "Great day out. Hadale was very friendly and knowledgeable and made entry into the parks very smooth and easy",
+        "The team was passionate and dedicated, and their expertise showed in every frame.",
     },
     {
       name: "Hamza",
-      image: "/assets/people-3.png",
+      image: "/man.jpg",
       city: "Turkana",
       country: "Kenya",
       rating: "4.5",
       testimoni:
-        "Amazing visit! Our guide Watson was great and worked hard to make sure we saw tons of animals.",
+        "We couldn't be happier with the promotional video Sanaa Zote created for our new product launch.",
     },
   ],
 }) => {
@@ -99,6 +99,7 @@ const Testimoni = ({
                     src={listTestimonis.image}
                     height={50}
                     width={50}
+                    className="rounded-full"
                     alt="Icon People"
                   />
                   <div className="flex flex-col ml-5 text-left">

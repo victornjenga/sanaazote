@@ -13,8 +13,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const About = () => {
-  const backgroundImageUrl = 'url("/hero.jpg")';
-const backgroundImageUrl2 = 'url("/diani.jpg")';
+  const backgroundImageUrl = 'url("/hero.jpeg")';
+const backgroundImageUrl2 = 'url("/hero1.jpg")';
   return (
     <div id='about' className="w-full  flex pt-20 md:pt-20 ">
       <div className="w-[100%] ">
