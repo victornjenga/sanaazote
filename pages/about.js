@@ -21,44 +21,39 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <h1 className="text-5xl md:text-6xl py-5 text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-green-600  to-green-800">
+        <h1 className="text-5xl md:text-6xl py-5 text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-blue-600  to-blue-800">
           Who We Are?
         </h1>
         <p className="justify-center">
-          Safwa Safaris is dedicated to creating exceptional travel experiences
-          that showcase the beauty and diversity of wildlife and natural
-          landscapes. We strive to deliver personalized and responsible tours
-          that prioritize environmental sustainability, support local
-          communities, and exceed the expectations of our clients, ensuring
-          every journey is safe, enriching, and memorable.
+        Sanaa Zote is a premier filming company dedicated to bringing stories to life through the art of visual storytelling. With a team of passionate and creative professionals, we specialize in a wide range of filming services including weddings, corporate events, documentaries, promotional videos, music videos, and more. Our commitment to excellence and innovation ensures that every project we undertake is crafted with precision and heart, delivering exceptional results that exceed our clients' expectations.
+
+
         </p>
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
             <div
               className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] shadow-lg dark:bg-[#323F5D]`}
             >
-              <RiFocus2Fill className="text-4xl text-blue-600" />
+              <RiFocus2Fill className="text-4xl text-orange-600" />
             </div>
             <h1 className="mt-[26px] font-bold text-[24px] leading-[30.24px] dark:text-gray-100">
               OUR MISSION AND OBJECTIVES
             </h1>
             <p className="flex-1 mt-[16px] font-normal text-[18px] dark:text-gray-100  leading-[32.4px]">
-              To become the leading provider of unforgettable safari
-              experiences, fostering a deep connection with nature and promoting
-              sustainable tourism across the globe.
+            Our mission at Sanaa Zote is to capture and convey the essence of each story we tell, creating visually stunning and emotionally resonant films that leave a lasting impact.
             </p>
           </div>
           <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
             <div
               className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] shadow-lg dark:bg-[#323F5D]`}
             >
-              <GrMicrofocus className="text-blue-600 text-4xl" />
+              <GrMicrofocus className="text-orange-600 text-4xl" />
             </div>
             <h1 className="mt-[26px] font-bold text-[24px] leading-[30.24px] dark:text-gray-100">
               Customer Satisfaction
             </h1>
             <p className="flex-1 mt-[16px] font-normal text-[18px] dark:text-gray-100  leading-[32.4px]">
-            At Safwa Safaris, our mission is to create extraordinary travel experiences that captivate the senses and enrich the soul.
+            Our vision is to be the leading filming company renowned for our artistic excellence and storytelling prowess. We aim to inspire and connect people through the power of film, pushing the boundaries of creativity and innovation in the industry.
             </p>
           </div>
         </div>

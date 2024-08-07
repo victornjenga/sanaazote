@@ -6,7 +6,7 @@ import {
   FiChevronUp,
 } from "react-icons/fi";
 import { motion } from "framer-motion";
-import { FcAbout, FcHome, FcBusinessContact, FcBiotech } from "react-icons/fc";
+import { FcAbout, FcHome, FcBusinessContact, FcBiotech,  FcWorkflow } from "react-icons/fc";
 import { GrTechnology, GrShieldSecurity, GrNetwork } from "react-icons/gr";
 import { GiSatelliteCommunication } from "react-icons/gi";
 import { Link as LinkScroll } from "react-scroll";
@@ -116,8 +116,12 @@ const Navbar = () => {
               About
             </p>
           </Link>
-
-          <h2 onClick={toggleSubmenu} className="menu-item sub__menus__arrows">
+          <Link href="/projects">
+            <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
+              Projects
+            </p>
+          </Link>
+          {/* <h2 onClick={toggleSubmenu} className="menu-item sub__menus__arrows">
             <Link href="/">
               <div className="flex justify-center items-center">
                 <p className="text-xl cursor-pointer font-medium pr-2">
@@ -143,10 +147,10 @@ const Navbar = () => {
                 </li>
               </div>
             </ul>
-          </h2>
-          <Link href="/about">
+          </h2> */}
+          <Link href="/contact">
             <p className="text-xl cursor-pointer font-medium hover:text-purple-600">
-              Corporates
+              Contact
             </p>
           </Link>
 
@@ -212,63 +216,12 @@ const Navbar = () => {
                   <Link href="/contact">Contact Us</Link>
                 </li>
                 <li
-                  onClick={() => setOpenMenu(!openMenu)}
-                  className=" font-sm cursor-pointer hover:text-purple-600 flex space-x-2 items-center"
+                  onClick={() => setOpen(false)}
+                  className="font-sm  hover:text-purple-600 flex space-x-2 items-center"
                 >
-                  <FcBiotech />
-                  <p className=" pr-2">Destinations</p>
-                  {openMenu ? (
-                    <FiChevronUp className="text-2xl" />
-                  ) : (
-                    <FiChevronDown className="text-2xl " />
-                  )}
+                   <FcWorkflow />
+                  <Link href="/projects">Projects</Link>
                 </li>
-                {openMenu && (
-                  <div className=" space-y-2 text-left flex flex-col pb-4  justify-center pl-4 my-2  dark: ">
-                    <li
-                      className="hover:text-purple-600 flex items-center space-x-2"
-                      onClick={() => setOpen(false)}
-                    >
-                      {/* <GrTechnology /> */}
-                      <Link href="/">Mombasa</Link>
-                    </li>
-                    <li
-                      className="hover:text-purple-600 flex items-center space-x-2"
-                      onClick={() => setOpen(false)}
-                    >
-                      {/* <AiOutlineSecurityScan /> */}
-                      <Link href="/">Diani</Link>
-                    </li>
-                    <li
-                      className="hover:text-purple-600 flex items-center space-x-2"
-                      onClick={() => setOpen(false)}
-                    >
-                      {/* <GrShieldSecurity /> */}
-                      <Link href="/">Kisumu</Link>
-                    </li>
-                    <li
-                      className="hover:text-purple-600 flex items-center space-x-2"
-                      onClick={() => setOpen(false)}
-                    >
-                      {/* <GiSatelliteCommunication /> */}
-                      <Link href="/">Lamu</Link>
-                    </li>
-                    {/* <li
-                      className="hover:text-purple-600 flex items-center space-x-2"
-                      onClick={() => setOpen(false)}
-                    >
-                      <GrNetwork />
-                      <Link href="/Network">Network Infrastructure</Link>
-                    </li>
-                    <li
-                      className="hover:text-purple-600 flex items-center space-x-2"
-                      onClick={() => setOpen(false)}
-                    >
-                      <AiOutlineCloudDownload />
-                      <Link href="/Cloudsolutions">Cloud Solutions</Link>
-                    </li> */}
-                  </div>
-                )}
               </ul>
             </div>
             <h2 className="pt-5 text-xl   text-purple-600">Lets Connect</h2>
