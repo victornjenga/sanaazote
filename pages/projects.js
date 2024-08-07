@@ -4,8 +4,11 @@ import React from 'react';
 import YouTubeEmbed from '../components/YouTubeEmbed';
 import styles from "../styles/style";
 import Partners from "../components/Partners";
+import axios from "axios";
+import { BASE_URL } from "../utils";
 
-const Projects = () => {
+const Projects = ({products}) => {
+    console.log(products)
   // Define the JSON data within the component
   const videos = [
     { url: "https://youtu.be/90pYaWVhpXw?si=hYVr9ByKTMm0simS", title: "Netflix and Chill" },
@@ -27,8 +30,8 @@ const Projects = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-2 md:mt-8 w-full  items-center gap-10  h-full">
-      {videos.map((video, index) => (
-        <YouTubeEmbed key={index} url={video.url} title={video.title} />
+      {products.map((video, index) => (
+        <YouTubeEmbed key={index} link={video.link} name={video.name} />
       ))}
       </div>
       <Partners />
@@ -38,3 +41,14 @@ const Projects = () => {
 };
 
 export default Projects;
+
+export const getServerSideProps = async ({ query: { category } }) => {
+    let response = await axios.get(`${BASE_URL}/api/products`);
+  
+    if (category) {
+      response = await axios.get(`${BASE_URL}/api/discover/${category}`);
+    }
+    return {
+      props: { products: response.data },
+    };
+  };

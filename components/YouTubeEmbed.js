@@ -2,14 +2,14 @@
 
 import React from 'react';
 
-const getYouTubeVideoId = (url) => {
+const getYouTubeVideoId = (link) => {
     const regex = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/;
-    const matches = url.match(regex);
+    const matches = link.match(regex);
     return matches ? matches[1] : null;
   };
   
-const YouTubeEmbed = ({ url, title }) => {
-    const videoId = getYouTubeVideoId(url);
+const YouTubeEmbed = ({ link, name }) => {
+    const videoId = getYouTubeVideoId(link);
 
     if (!videoId) {
       return <div>Error: Invalid YouTube URL</div>;
@@ -28,9 +28,9 @@ const YouTubeEmbed = ({ url, title }) => {
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        title={title}
+        title={name}
       ></iframe>
-       <h2 className='text-center py-1 text-xl'>{title}</h2>
+       <h2 className='text-center py-1 text-xl'>{name}</h2>
     </div>
     </div>
   );

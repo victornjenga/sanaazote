@@ -9,7 +9,7 @@ export const allPostsQuery = () => {
         userName,
         image
       },
-    likes,category,
+    link,category,
     description,price,inclusion,exclusion,
     comments[]{
       comment,
@@ -42,7 +42,7 @@ export const postDetailQuery = (postId) => {
       userName,
       image
     },
-     likes,
+     link,
      description,price,inclusion,exclusion,
     comments[]{
       comment,
@@ -72,7 +72,7 @@ export const searchPostsQuery = (searchTerm) => {
       userName,
       image
     },
-likes,
+link,
 description,price,inclusion,exclusion,
     comments[]{
       comment,
@@ -115,7 +115,7 @@ export const userCreatedPostsQuery = (userId) => {
       userName,
       image
     },
- likes,
+ link,
  description,price,inclusion,exclusion,
 
     comments[]{
@@ -133,7 +133,7 @@ export const userCreatedPostsQuery = (userId) => {
 };
 
 export const userLikedPostsQuery = (userId) => {
-  const query = `*[_type == 'sites' && '${userId}' in likes[]._ref ] | order(_createdAt desc) {
+  const query = `*[_type == 'sites' && '${userId}' in link[]._ref ] | order(_createdAt desc) {
     _id,
      name,
        image{
@@ -148,7 +148,7 @@ export const userLikedPostsQuery = (userId) => {
       userName,
       image
     },
- likes,
+ link,
  description,price,inclusion,exclusion,
 
     comments[]{
@@ -181,7 +181,7 @@ export const categoryPostsQuery = (category) => {
       userName,
       image
     },
- likes,
+ link,
  description,price,inclusion,exclusion,
 
     comments[]{
@@ -213,7 +213,7 @@ export const brandPostsQuery = (brand) => {
       userName,
       image
     },
- likes,
+ link,
  description,price,inclusion,exclusion,
 
     comments[]{
@@ -245,7 +245,7 @@ export const AllCategoryPostsQuery = () => {
       userName,
       image
     },
- likes,
+ link,
  description,price,inclusion,exclusion,
 
     comments[]{
