@@ -99,8 +99,8 @@ const Navbar = () => {
   };
   return (
     <div className="fixed w-full z-10 -300 bg-gray-950 ">
-      <div className="hidden md:flex h-[80px] justify-between items-center px-8  bg-gray-900 ">
-        <div>
+      <div className="hidden md:flex h-[80px] justify-around items-center px-8  bg-gray-900 ">
+        <div className="cursor-pointer">
           <Link href="/">
             <img className="h-[50px]" src="/logo.png" alt="/" />
           </Link>
