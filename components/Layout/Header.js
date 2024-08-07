@@ -158,7 +158,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className=" md:hidden flex top-0 mt-0  text-center  h-[70px] items-center bg-gray-950 z-10 w-full fixed justify-around  md:justify-around space-x-10">
+      <div className=" md:hidden flex top-0 mt-0  text-center  h-[70px] items-center bg-gray-950 z-10 w-full fixed justify-between px-4  md:justify-around space-x-10">
         <div className="">
           <a href="/">
             <img className="w-[80px] md:w-[110px]" src="/logo.png" alt="/" />
