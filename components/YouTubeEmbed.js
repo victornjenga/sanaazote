@@ -23,7 +23,7 @@ const YouTubeEmbed = ({ link, name }) => {
     <div className="rounded-xl block w-full  space-x-10 ">
      
       <iframe
-        className='px-2 w-full h-[250px] '
+        className='px-2 w-full h-[200px] md:h-[250px] '
         src={embedUrl}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
