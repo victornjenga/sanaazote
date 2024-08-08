@@ -5,9 +5,14 @@ import { RiFocus2Fill } from "react-icons/ri";
 import { GrMicrofocus } from "react-icons/gr";
 import styles from "../styles/style";
 import { planetVariants, staggerContainer, fadeIn } from "../utils/motion";
+import { TypingText } from '../components/CustomTexts'
+import Partners from "../components/Partners";
 
-const Founder = () => (
-  <section
+const Founder = () => {
+    const videoId = "mCBmZ8ghViw"; // Replace this with your YouTube video ID
+
+return(
+<section
     className={`${styles.paddings} px-4 relative pt-16 md:pt-40 z-1 mx-auto w-[100%] md:w-[90%]`}
   >
     <motion.div
@@ -49,8 +54,47 @@ const Founder = () => (
       </motion.div>
       <p className="italic md:hidden">(David Kinyanjui at his Sanaa Zote Production Ltd studios along Ngong road during an interview)</p>
     </motion.div>
-    
+    <div className={`${styles.paddings} relative pt-10  mx-auto w-[95%]`}>
+    {/* <div className="gradient-02 z-0" /> */}
+    <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={`} mx-auto ${styles.flexCenter} flex-col`}
+    >
+      <TypingText title="| David On NTV" textStyles="text-center" />
+
+      <motion.div
+        variants={fadeIn('up', 'tween', 0.2, 1)}
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center "
+      >
+        
+        <iframe
+          // width="560" height="315"
+          className="w-full md:w-[600px] h-full md:h-[315px]"
+          src={`https://www.youtube.com/embed/${videoId}`}
+          title="GMB Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </motion.div>
+      {/* <motion.img
+        variants={fadeIn('up', 'tween', 0.3, 1)}
+        src="/arrow-down.svg"
+        alt="arrow down"
+        className="w-[18px] h-[28px] object-contain mt-[28px]"
+      /> */}
+      {/* <AiOutlineArrowDown className="text-7xl"/> */}
+    </motion.div>
+  </div>
+  <div className='py-20'>
+      <Partners />
+      </div>
   </section>
-);
+)
+}
+  
+;
 
 export default Founder;
