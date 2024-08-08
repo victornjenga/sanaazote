@@ -98,7 +98,7 @@ const Navbar = () => {
     }
   };
   return (
-    <div className="fixed w-full z-10 -300 bg-gray-950 ">
+    <div className="fixed w-full z-10 -300 bg-gray-100 dark:bg-gray-950 ">
       <div className="hidden md:flex h-[80px] justify-around items-center px-8  bg-gray-900 ">
         <div className="cursor-pointer">
           <Link href="/">
@@ -158,7 +158,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className=" md:hidden flex top-0 mt-0  text-center  h-[70px] items-center bg-gray-950 z-10 w-full fixed justify-between px-4  md:justify-around space-x-10">
+      <div className=" md:hidden flex top-0 mt-0  text-center  h-[70px] items-center bg-gray-100 dark:bg-gray-950 z-10 w-full fixed justify-between px-4  md:justify-around space-x-10">
         <div className="">
           <a href="/">
             <img className="w-[80px] md:w-[110px]" src="/logo.png" alt="/" />
@@ -166,7 +166,7 @@ const Navbar = () => {
         </div>
 
         <div className="md:hidden flex items-center justify-center space-x-10">
-          {/* <ThemeSwitch /> */}
+          <ThemeSwitch />
 
           <AiOutlineMenu
             className="cursor-pointer text-2xl md:hidden"
@@ -176,7 +176,7 @@ const Navbar = () => {
       </div>
 
       {open && (
-        <div className="bg-gray-950 md:hidden top-0 h-full px-5 w-[80%] b-0 fixed  duration-300 z-10">
+        <div className="bg-gray-100 dark:bg-gray-950 md:hidden top-0 h-full px-5 w-[80%] b-0 fixed  duration-300 z-10">
           <div className="flex py-5 items-center justify-between">
             <div onClick={() => setOpen(false)} className="">
               <a href="/">
@@ -247,14 +247,14 @@ const Navbar = () => {
               </a>
             </div>
             <div className="mt-5 mb-10">
-              {/* <ThemeSwitch /> */}
+              <ThemeSwitch />
             </div>
           </div>
         </div>
       )}
 
       {router.pathname === "/" && (
-        <nav className="fixed lg:hidden bottom-0 bg-gray-950 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
+        <nav className="fixed lg:hidden bottom-0 bg-gray-100 dark:bg-gray-950 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
           <div className="bg-white sm:px-3">
             <ul className="flex w-full justify-between items-center text-black-500">
               <LinkScroll

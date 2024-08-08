@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider attribute="class" enableSystem={true}>
       <CurrencyProvider>
       <NextNprogress />
-        <div className="w-full overflow-hidden bg-gray-950 text-gray-100 ">
+        <div className="w-full overflow-hidden bg-gray-100 dark:bg-gray-950 dark:text-gray-100 ">
           <StateContext>
             <Header />
             <Component {...pageProps} />
