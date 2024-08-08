@@ -33,7 +33,7 @@ return(
         The entrepreneur who has used local artists to produce programmes that appeal to local audiences. Kinyanjui is associated with the production of reality TV shows, documentaries and advertisement for corporates
         </p>
         <div className="my-6 ">
-      <a className="animate-bounce " href="https://www.standardmedia.co.ke/amp/article/2000148104/from-rags-to-riches-the-tv-way">
+      <a target="_blank" rel="noreferrer" className="animate-bounce " href="https://www.standardmedia.co.ke/amp/article/2000148104/from-rags-to-riches-the-tv-way">
         <button className="py-2 px-3  animate-bounce text-gray-200 bg-blue-600 rounded-xl text-xl">
           Read Full Bio
         </button>
