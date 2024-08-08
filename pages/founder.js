@@ -72,7 +72,7 @@ return(
         
         <iframe
           // width="560" height="315"
-          className="w-full md:w-[600px] h-full md:h-[315px]"
+          className="w-full md:w-[600px] h-[250px] md:h-[315px]"
           src={`https://www.youtube.com/embed/${videoId}`}
           title="GMB Video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
