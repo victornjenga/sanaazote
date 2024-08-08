@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <div className=" flex flex-col justify-center w-full items-center  py-6">
       <div className=" flex flex-col w-[80%] justify-center md:grid grid-cols-4">
-        <div className=" px-3 my-3">
+        <div className=" px-3  justify-center  items-center w-full flex md:block flex-col my-3">
           <Link href="/">
-            <img className="h-[80px]" src="/logo.png" alt="/" />
+            <img className="h-[80px]" src="/logo1.png" alt="/" />
           </Link>
           <p>All in one place for all your filming needs</p>
         </div>

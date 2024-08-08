@@ -99,10 +99,10 @@ const Navbar = () => {
   };
   return (
     <div className="fixed w-full z-10 -300 bg-gray-100 dark:bg-gray-950 ">
-      <div className="hidden md:flex h-[80px] justify-around items-center px-8  bg-gray-900 ">
+      <div className="hidden md:flex h-[80px] justify-around items-center px-8  bg-gray-100 dark:bg-gray-950 ">
         <div className="cursor-pointer">
           <Link href="/">
-            <img className="h-[50px]" src="/logo.png" alt="/" />
+            <img className="h-[50px]" src="/logo1.png" alt="/" />
           </Link>
         </div>
         <div className="hidden space-x-10  md:flex ">
@@ -161,7 +161,7 @@ const Navbar = () => {
       <div className=" md:hidden flex top-0 mt-0  text-center  h-[70px] items-center bg-gray-100 dark:bg-gray-950 z-10 w-full fixed justify-between px-4  md:justify-around space-x-10">
         <div className="">
           <a href="/">
-            <img className="w-[80px] md:w-[110px]" src="/logo.png" alt="/" />
+            <img className="h-[40px]" src="/logo1.png" alt="/" />
           </a>
         </div>
 
@@ -180,7 +180,7 @@ const Navbar = () => {
           <div className="flex py-5 items-center justify-between">
             <div onClick={() => setOpen(false)} className="">
               <a href="/">
-                <img className="w-[100px] " src="/logo.png" alt="/" />
+                <img className="h-[50px] " src="/logo1.png" alt="/" />
               </a>
             </div>
             <AiOutlineClose
