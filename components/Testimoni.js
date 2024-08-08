@@ -18,7 +18,7 @@ const Testimoni = ({
       country: "Kenya",
       rating: "4.5",
       testimoni:
-        "David Kinyanjui is a fantastic producer being able to make a number of things happen at very short notice while arranging long term plans. I am a Los Angeles, Hollywood Producer and I had the honor of working with David at two different times in Kenya over the last year. He is dedicated, passionate about producing and making films, especially passionate about the message and purpose of the film. He knew people in each category of work we needed. ",
+        "David Kinyanjui is a fantastic producer being able to make a number of things happen at very short notice while arranging long term plans. I am a Los Angeles, Hollywood Producer and I had the honor of working with David at two different times in Kenya over the last year.",
     },
     {
       name: "Sirucha Brutus",
