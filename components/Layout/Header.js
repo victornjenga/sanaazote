@@ -196,28 +196,28 @@ const Navbar = () => {
               <ul className="block space-y-4 pt-5">
                 <li
                   onClick={() => setOpen(false)}
-                  className="font-sm hover:text-orange-600 flex space-x-2 items-center "
+                  className="font-sm hover:text-orange-600 flex space-x-2 text-xl items-center "
                 >
                   <FcHome />
                   <Link href="/">Home</Link>
                 </li>
                 <li
                   onClick={() => setOpen(false)}
-                  className="font-sm hover:text-orange-600 flex space-x-2 items-center "
+                  className="font-sm hover:text-orange-600 flex space-x-2 text-xl items-center "
                 >
                   <FcAbout />
                   <Link href="/about">About</Link>
                 </li>
                 <li
                   onClick={() => setOpen(false)}
-                  className="font-sm  hover:text-orange-600 flex space-x-2 items-center"
+                  className="font-sm  hover:text-orange-600 flex space-x-2 text-xl items-center"
                 >
                   <FcBusinessContact />
                   <Link href="/contact">Contact Us</Link>
                 </li>
                 <li
                   onClick={() => setOpen(false)}
-                  className="font-sm  hover:text-orange-600 flex space-x-2 items-center"
+                  className="font-sm  hover:text-orange-600 flex space-x-2 text-xl items-center"
                 >
                    <FcWorkflow />
                   <Link href="/projects">Projects</Link>

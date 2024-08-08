@@ -8,11 +8,13 @@ import { ThemeProvider } from "next-themes";
 import Footer from "../components/Layout/Footer";
 import whatsapp from "/public/whatsapp.png";
 import Image from "next/image";
+import NextNprogress from "nextjs-progressbar";
 
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" enableSystem={true}>
       <CurrencyProvider>
+      <NextNprogress />
         <div className="w-full overflow-hidden bg-gray-950 text-gray-100 ">
           <StateContext>
             <Header />
