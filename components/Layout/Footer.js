@@ -20,6 +20,9 @@ const Footer = () => {
           <p className="hover:text-orange-600"> <Link href="/about">About Us</Link></p>
           <p className="hover:text-orange-600"><Link href="/">Services</Link></p>
           <p className="hover:text-orange-600"><Link href="/contact">Contact</Link></p>
+          <p className="hover:text-orange-600"><Link href="/gallery">Gallery</Link></p>
+          <p className="hover:text-orange-600"><Link href="/founder">Founder</Link></p>
+
         </div>
         <div className="flex flex-col  my-3">
           <p className="text-xl font-bold">Top Services</p>

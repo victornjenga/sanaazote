@@ -6,7 +6,7 @@ import {
   FiChevronUp,
 } from "react-icons/fi";
 import { motion } from "framer-motion";
-import { FcAbout, FcHome, FcBusinessContact, FcBiotech,  FcWorkflow } from "react-icons/fc";
+import { FcAbout, FcHome, FcBusinessContact, FcBiotech,  FcWorkflow ,FcPicture,FcPortraitMode} from "react-icons/fc";
 import { GrTechnology, GrShieldSecurity, GrNetwork } from "react-icons/gr";
 import { GiSatelliteCommunication } from "react-icons/gi";
 import { Link as LinkScroll } from "react-scroll";
@@ -153,7 +153,11 @@ const Navbar = () => {
               Contact
             </p>
           </Link>
-
+          <Link href="/gallery">
+            <p className="text-xl cursor-pointer font-medium hover:text-orange-600">
+              Gallery
+            </p>
+          </Link>
           <ThemeSwitch />
         </div>
       </div>
@@ -221,6 +225,20 @@ const Navbar = () => {
                 >
                    <FcWorkflow />
                   <Link href="/projects">Projects</Link>
+                </li>
+                <li
+                  onClick={() => setOpen(false)}
+                  className="font-sm  hover:text-orange-600 flex space-x-2 text-xl items-center"
+                >
+                   <FcPicture />
+                  <Link href="/gallery">Gallery</Link>
+                </li>
+                <li
+                  onClick={() => setOpen(false)}
+                  className="font-sm  hover:text-orange-600 flex space-x-2 text-xl items-center"
+                >
+                   <FcPortraitMode />
+                  <Link href="/founder">Founder</Link>
                 </li>
               </ul>
             </div>
