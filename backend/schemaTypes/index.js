@@ -1,3 +1,3 @@
 import sites from './sites'
-// import category from "./category"
-export const schemaTypes = [sites]
+import pics from './pics'
+export const schemaTypes = [sites, pics]
