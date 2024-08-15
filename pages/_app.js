@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
             <Header />
             <Component {...pageProps} />
             <Footer />
-            <div className="bottom-10 fixed z-10 cursor-pointer right-4 ">
+            <div className="bottom-10 animate-bounce fixed z-10 cursor-pointer right-4 ">
                   <a
                     href="https://wa.me/+254721600430?text=Hello,+There"
                     target="_blank"
