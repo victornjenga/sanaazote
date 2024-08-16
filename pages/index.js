@@ -10,13 +10,16 @@ import Footer from "../components/Layout/Footer";
 import Partners from "../components/Partners";
 import About from "../components/About";
 import Services from "../components/Services";
-export default function Home() {
-  // console.log(products);
+export default function Home({products}) {
+  console.log(products);
 
   return (
     <div>
       <SeoHead title="Sanaa Zote TV" />
-      <Hero />
+      {products.map((product) => (
+        <Hero key={product._id} product={product} />
+      ))}
+      {/* <Hero /> */}
       <About />
       <div className="relative">
 
@@ -33,13 +36,13 @@ export default function Home() {
   );
 }
 
-// export const getServerSideProps = async ({ query: { category } }) => {
-//   let response = await axios.get(`${BASE_URL}/api/products`);
+export const getServerSideProps = async ({ query: { category } }) => {
+  let response = await axios.get(`${BASE_URL}/api/products/sliders`);
 
-//   if (category) {
-//     response = await axios.get(`${BASE_URL}/api/discover/${category}`);
-//   }
-//   return {
-//     props: { products: response.data },
-//   };
-// };
+  if (category) {
+    response = await axios.get(`${BASE_URL}/api/discover/${category}`);
+  }
+  return {
+    props: { products: response.data },
+  };
+};

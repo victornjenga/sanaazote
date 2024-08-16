@@ -52,6 +52,33 @@ export const allPicsQuery = () => {
   return query;
 };
 
+export const allSlidersQuery = () => {
+  const query = `*[_type == "sliders"] | order(_createdAt desc){
+    _id,
+    name,
+     image,
+      userId,
+      postedBy->{
+        _id,
+        userName,
+        image
+      },
+    link,category,
+    description,price,inclusion,exclusion,
+    comments[]{
+      comment,
+      _key,
+      postedBy->{
+      _id,
+      userName,
+      image
+    },
+    }
+  }`;
+
+  return query;
+};
+
 export const postDetailQuery = (postId) => {
   const query = `*[_type == "sites" && _id == '${postId}']{
     _id,
