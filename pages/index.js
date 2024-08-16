@@ -43,9 +43,8 @@ export default function Home({ products }) {
               <SwiperSlide key={product._id}>
                 <div
                   className="bg-cover bg-center h-[400px] md:h-[420px] flex flex-col w-full items-center justify-center"
-                  style={{
-                    backgroundImage: `(${urlFor(product.image && product.image[0])})`,
-                  }}
+                  style={{ backgroundImage: `url(${urlFor(product.image && product.image[0]).url()})` }}
+
                 >
                   <div className="absolute inset-0 h-[400px] md:h-[420px] bg-black opacity-50"></div>
                   <section
