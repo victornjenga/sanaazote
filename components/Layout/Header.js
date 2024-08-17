@@ -258,7 +258,7 @@ const Navbar = () => {
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer"
-              >
+          nn    >
                 <div className="shadow-lg w-10 h-10 justify-center items-center flex shadow-gray-400 rounded-full ">
                   <FaInstagram />
                 </div>

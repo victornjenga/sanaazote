@@ -1,3 +1,4 @@
 import sites from './sites'
 import pics from './pics'
-export const schemaTypes = [sites, pics]
+import sliders from './sliders'
+export const schemaTypes = [sites, pics,sliders]
