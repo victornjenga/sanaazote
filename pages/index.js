@@ -12,6 +12,7 @@ import About from "../components/About";
 import Services from "../components/Services";
 import styles from "../styles/style";
 import { urlFor } from "../utils/client";
+import Link from "next/link";
 
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -88,8 +89,7 @@ export default function Home({ products }) {
                   <div className="absolute inset-0 h-[400px] md:h-[420px] bg-black opacity-50"></div>
                   <section
                     className={`${styles.paddings} mx-auto z-10 w-[95%] items-center justify-center`}
-                    >
-                      
+                    >   
                       <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-orange-600  to-orange-700">
                        <span className="light:text-black text-gray-100">
                          {mainName}{' '}
@@ -112,7 +112,6 @@ export default function Home({ products }) {
           </Swiper>
         </div>
       </div>
-
       <About />
       <div className="relative">
         <Services />
