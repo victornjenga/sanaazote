@@ -99,6 +99,11 @@ export default function Home({ products }) {
                       <p className="text-gray-100 text-2xl z-10 text-center">
                         {product.description}
                       </p>
+                      <div className="text-center mt-4">
+          <button className="bg-blue-800 rounded-xl px-3 py-2 text-gray-100 text-xl  ">
+            <Link href="/contact"> Contact Us</Link>
+          </button>
+        </div>
                     </section>
                   </div>
                 </SwiperSlide>
