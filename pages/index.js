@@ -22,7 +22,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 export default function Home({ products }) {
-  console.log(products);
+  // console.log(products);
 
   return (
     <div>
