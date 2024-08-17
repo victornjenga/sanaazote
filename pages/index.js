@@ -69,7 +69,7 @@ export default function Home({ products }) {
             slidesPerView={1}
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
+            // onSwiper={(swiper) => console.log(swiper)}
           >
             {products.map((product) => {
               
